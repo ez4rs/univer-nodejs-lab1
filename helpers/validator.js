@@ -17,7 +17,6 @@ class Validator{
     static isIn(value, array) {
         return array.includes(value);
     }
-
     static isArray(value) {
         if (Array.isArray(value))
             return value;
